@@ -39,6 +39,7 @@ install(DIRECTORY include/ DESTINATION include)
 install(DIRECTORY urdf DESTINATION share/${PROJECT_NAME})
 install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY arduino DESTINATION share/${PROJECT_NAME})
 
 install(TARGETS jga25_hardware
   EXPORT export_jga25_hardware
