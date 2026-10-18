@@ -75,14 +75,3 @@ Les paramètres matériels se trouvent dans le fichier `urdf/ros2_control.xacro`
 **Lacina Sidibe** 
 Étudiant en Robotique (PFE 2027).
 - GitHub: [@lacinasidibe114-sudo](https://github.com/lacinasidibe114-sudo)
-```
-
----
-
-### 💡 Pourquoi ce README est bon :
-*   **Il explique l'architecture** : Il montre que vous comprenez la séparation entre le C++ (ROS) et le C++ (Arduino).
-*   **Il donne les commandes exactes** : N'importe qui peut cloner et tester votre projet en suivant les étapes.
-*   **Il mentionne `libserial` et le PID** : Ce sont des mots-clés très importants pour un recruteur en robotique.
-*   **Il est propre** : L'utilisation des emojis et des blocs de code le rend très lisible.
-
-Dites-moi quand vous l'avez publié sur GitHub ! Ensuite, on pourra attaquer la suite de votre apprentissage (le 2ème moteur ou l'IMU).
