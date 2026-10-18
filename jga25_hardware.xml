@@ -1,0 +1,9 @@
+<library path="jga25_hardware">
+  <class name="jga25_hardware/JGA25HardwareInterface"
+         type="jga25_hardware::JGA25HardwareInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Hardware interface pour moteur JGA25-370 piloté par Arduino via USB série.
+    </description>
+  </class>
+</library>

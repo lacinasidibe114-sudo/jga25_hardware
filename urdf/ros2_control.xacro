@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <ros2_control name="JGA25System" type="system">
+    <hardware>
+      <plugin>jga25_hardware/JGA25HardwareInterface</plugin>
+      <!-- Note : J'ai corrigé /dev/ttACM0 en /dev/ttyACM0 -->
+      <param name="device">/dev/ttyACM0</param> 
+      <param name="baud_rate">115200</param>
+      <param name="counts_per_rev">1320.0</param>
+    </hardware>
+    <joint name="roue_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+</robot>
